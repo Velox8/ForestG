@@ -1,0 +1,156 @@
+.offers2-header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 36em;
+  background-image: url(/dist/img/avenue-2215317_640.jpg);
+  background-position: calc(0% - 0em) 69%;
+  background-size: cover;
+}
+.offers2-header .offers2Header-text {
+  margin-left: 15%;
+  z-index: 0;
+}
+.offers2-header .offers2Header-text .offers2HeaderP {
+  font-size: 1.3rem;
+  color: rgba(248, 243, 243, 0.8392156863);
+}
+.offers2-header .offers2Header-text .h1Offers2Header {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: white;
+}
+.offers2-header .shadow-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}
+
+.offers2 .h2Offers2 {
+  margin: 2em;
+  text-transform: uppercase;
+  font-size: 2.1rem;
+  font-weight: 300;
+  color: rgba(11, 11, 11, 0.8666666667);
+}
+.offers2 .offers2-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2em;
+  margin-bottom: 10em;
+}
+.offers2 .offers2-container .offers2-box {
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+  width: 100%;
+}
+.offers2 .offers2-container .offers2-box .offers2-img {
+  width: 100%;
+}
+.offers2 .offers2-container .offers2-box .offers2-img-right {
+  order: 0;
+  z-index: 1;
+}
+.offers2 .offers2-container .offers2-box .offers2-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1em;
+}
+.offers2 .offers2-container .offers2-box .offers2-info .offers2-heading {
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: 2rem;
+}
+.offers2 .offers2-container .offers2-box .offers2-info .offers2-text {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: 1rem;
+}
+.offers2 .offers2-container .offers2-box .offers2-info .offers2-button {
+  margin-top: 1em;
+  width: 100%;
+  max-width: 100%;
+  height: 36px;
+  background-color: rgb(71, 218, 101);
+  font-size: 1rem;
+  border: 1px solid rgb(71, 218, 101);
+  box-shadow: 0px 0px 3px 3px rgb(71, 218, 101);
+  border-radius: 5px;
+  z-index: 0;
+  cursor: pointer;
+}
+.offers2 .offers2-container .offers2-box .offers2-info .offers2-button::before {
+  background-color: rgb(29, 210, 65);
+}
+
+@media (min-width: 576px) {
+  .offers2-header .offers2Header-text {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .offers2 .h2Offers2 {
+    text-align: center;
+  }
+  .offers2 .offers2-container .offers2-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2em;
+    width: 90%;
+  }
+  .offers2 .offers2-container .offers2-box .offers2-img {
+    width: 90%;
+  }
+  .offers2 .offers2-container .offers2-box .offers2-info .offers2-text {
+    text-align: center;
+  }
+  .offers2 .offers2-container .offers2-box .offers2-info .offers2-button {
+    width: 80%;
+    max-width: 80%;
+  }
+}
+@media (min-width: 768px) {
+  .offers2 .offers2-button {
+    height: 36px;
+  }
+}
+@media (min-width: 992px) {
+  .offers2-header {
+    height: 42em;
+    background-image: url(/dist/img/avenue-2215317_1920.jpg);
+  }
+  .offers2-header .offers2Header-text {
+    margin-left: 20em;
+    margin-right: auto;
+  }
+  .offers2 .offers2-container .offers2-box {
+    display: flex;
+    flex-direction: row;
+    margin: 5em;
+    width: 80%;
+  }
+  .offers2 .offers2-container .offers2-box .offers2-img {
+    width: 80%;
+    min-width: 450px;
+    z-index: 1;
+  }
+  .offers2 .offers2-container .offers2-box .offers2-img-right {
+    order: 1;
+  }
+  .offers2 .offers2-container .offers2-box .offers2-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin: 5em;
+  }
+}/*# sourceMappingURL=offers2.css.map */
